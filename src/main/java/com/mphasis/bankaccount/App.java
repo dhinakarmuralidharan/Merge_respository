@@ -74,6 +74,7 @@ class CheckingAccount implements Bank{
 	
 	public void disp() {
 		System.out.println("Total amount is "+totamt);
+		System.out.println("Hello World");
 	}
 }
 public class App
@@ -84,5 +85,6 @@ public class App
         s.deposit();
         s.withdraw();
         s.disp();
+
     }
 }
